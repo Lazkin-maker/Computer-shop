@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="head">
+        <h3>Komputer Store</h3>
+    </div><br>
+        
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Joe Banker</h3>
+          <div class="payment">
+          <p id="balance">Balance: </p><span id="amountt"></span>
+          </div><br>
+          <div class="payment">
+            <p id="outstandingLoan">outstandingLoan:</p><span id="Loan"></span>            
+          </div><br>
+          <center><button id="getLoan" class="btn btn-success">Get a loan</button><br>
+          <button id="hidden_btn" class="btn btn-danger">Pay back</button>  
+        </center>
+        </div>
+        <div class="col-sm-4">
+          <h3>Work</h3>
+          <div class="payment">
+          <p id="pay">Pay: </p><p id="amount"> </p>
+          </div><br>
+          <center><button id="bank_btn" class="btn btn-warning" style="margin-top: 3.5em;">Bank</button>
+          <button id="work_btn" class="btn btn-primary" style="margin-top: 3.5em;">Work</button></center>        
+        </div>
+        <div class="col-sm-4">
+          <h3>Laptops</h3> 
+       
+          <select name="laptops" id="laptops"></select><br>
+          <h5 style="font-weight: bolder;">Features: </h5>
+          <span id ="features" style="font-size:smaller"></span>
+        </div><br>
+        
+      </div><br>
+      <div class="fixed-bottom">
+        <div class="image-div" id="image"></div>
+        <div class="info-div"><span id="title" style="font-weight: bold; font-size: larger;"></span><br><br>
+          <div class="descr-div">
+              <span id="description"> </span>
+          </div>
+        </div>
+        <div class="price-div"><span id="price" style="font-weight: bolder; font-size: larger;"></span>                                    
+          <div><button id="pay_btn" class="btn btn-primary">Pay Now</button></div>
+        </div>
+       
+        
+
+
+      </div>
+    </div>
+    <script src="app.js" type="text/javascript"></script>   
+
+</body>
+</html>

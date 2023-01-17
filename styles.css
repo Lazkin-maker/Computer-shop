@@ -1,0 +1,74 @@
+.head{
+    background-color: black;
+    color: white;
+    padding:2px;
+    padding-left: 10%;
+}
+.fixed-bottom{
+    border-radius: 12px;
+    background-color: whitesmoke;
+    margin-right: 15em;
+    display: flex;
+    padding-left: 10%;
+    padding-top: 1.5em;
+    height: 200px;
+    
+}
+
+.col-sm-4{
+    width:25%;
+    border-radius: 12px;
+    background-color: whitesmoke;
+    margin:0.5em;
+    height: 270px;
+    
+    }
+.container{ 
+    padding-left: 10%;
+}
+.container h3{
+    text-align: center;
+    padding-bottom: 20px;
+}    
+
+.col-sm-4 button{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 6px;
+}
+.payment{
+    display: flex;
+}
+
+#Loan{
+    margin-left: 4em ;
+}
+
+#amountt{
+    margin-left:8em;
+}
+
+#amount{
+    margin-left: 8em;
+}
+
+.info-div{
+    padding-left: 8em;
+    padding-right: 8em;
+    width: 50%;
+}
+
+.price-div{
+    text-align: center;
+    padding-top: 2%;
+}
+#pay_btn{
+    width: 80px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+/* overflow: auto; */
+
+
+
