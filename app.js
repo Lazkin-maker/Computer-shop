@@ -1,9 +1,9 @@
 const getLoan = document.getElementById("getLoan")
 const balanceAmount = document.getElementById("amountt")
-const work_btn = document.getElementById("work_btn")
-const bank_btn = document.getElementById("bank_btn")
+const workBtn = document.getElementById("workBtn")
+const bankBtn = document.getElementById("bankBtn")
 const pay = document.getElementById("amount")
-const payBack = document.getElementById("hidden_btn");
+const payBack = document.getElementById("hiddenBtn");
 const outStanding = document.getElementById("outstandingLoan");
 const Loan = document.getElementById("Loan");
 const laptopsElement = document.getElementById("laptops");
@@ -12,7 +12,7 @@ const imageElement = document.getElementById("image");
 const titleElement = document.getElementById("title");
 const descriptionElement = document.getElementById("description");
 const priceElement = document.getElementById("price");
-const pay_btn = document.getElementById("pay_btn");
+const payBtn = document.getElementById("payBtn");
 
 
 let payWork = 0.0;
@@ -83,7 +83,7 @@ const handleWork = () => {
     console.log(payWork);
 } 
 
-work_btn.addEventListener("click", handleWork)
+workBtn.addEventListener("click", handleWork)
 
 const handleBankTransfer = () => {
     if(outLoan != 0){
@@ -122,7 +122,7 @@ const handleBankTransfer = () => {
     }
 }
 
-bank_btn.addEventListener("click", handleBankTransfer)
+bankBtn.addEventListener("click", handleBankTransfer)
 
 const payBackHandle = () =>{
 
@@ -220,4 +220,4 @@ const handlePayNowButton = () =>{
         alert("Handle succeeded:)");
     }
 }
-pay_btn.addEventListener("click", handlePayNowButton);
+payBtn.addEventListener("click", handlePayNowButton);
