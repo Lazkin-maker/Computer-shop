@@ -1,5 +1,7 @@
 # Computer-shop
 
+This project is an introduction to fornt-end course and it's about creating a web-application to buy laptops, get loans from banks and fetch data from API and view it in a proper way. 
+
 This project is written by using (HTML, CSS ,Javascript). 
 The idea with this project is to get basic knowledge of front-end by using javascript. 
 The user should be able to get a loan by clicking on "Get a loan" function, but the user is not allowed to get a loan than is twice as his balance. In the Work div, the user has his daily work that increase by clicking on work by 100.
